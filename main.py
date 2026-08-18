@@ -95,6 +95,6 @@ standard_1 = StandardScaler()
 df_x = df_stand.copy()
 df_x[num_cols_sc] = standard_1.fit_transform(df_x[num_cols_sc])
 print(df_x.shape)
-
+print("House prices")
 
 
